@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Xyot4</string>
+    <string name="copyright">\u00A9 Mungi Engineers Pvt Ltd 2020</string>
+    <string name="Login">Login</string>
+    <string name="Consumption">Consumption</string>
+    <string name="Item_Entry">Item Entry</string>
+    <string name="Setting">Setting</string>
+    <string name="LogOut">LogOut</string>
+    <string name="SiteCode">SiteCode</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Save">Save</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Ip_Address">Ip Address</string>
+    <string name="ApI_Name">ApI Name</string>
+    <string name="Handler_Name">Handler Name</string>
+    <string name="Company_Name">Mungi Engineers Pvt Ltd</string>
+    <string name="username_error">Username cannot be empty</string>
+    <string name="password_error">Password cannot be empty</string>
+    <string name="no_internet"> Sorry! Not connected to internet</string>
+    <string name="welcome"> Welcome Xyot4</string>
+    <string name="CookieKey">Cookie</string>
+    <string name="server_url">https://ifb2.000webhostapp.com</string>
+    <string name="google_maps_key">AIzaSyCRDbwTqPTADKEoPr307_7XKvjolTWKs_c</string>
+
+    <string name="hint_sign">Get Signature</string>
+    <string name="dialog_title">SIGN HERE</string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="hint_clear">Clear</string>
+    <string name="hint_save">Save</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

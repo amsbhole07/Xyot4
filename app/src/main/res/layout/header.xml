@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lyt_header"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/df_transparentbackground"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:id="@+id/panelIconLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/txt_Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cartoon_slam"
+
+            android:text="BACK"
+            android:textColor="@color/white"
+            android:textSize="15dp"  />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/panelIconRight"
+        android:layout_toRightOf="@id/panelIconLeft"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/panelIconRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp">
+
+
+
+        <ImageView
+            android:id="@+id/img_Overflow"
+            android:layout_width="@dimen/factor_mdpi_40_dp"
+            android:layout_height="@dimen/factor_mdpi_40_dp"
+            android:src="@drawable/ic_baseline_replay_24" />
+    </LinearLayout>
+
+</RelativeLayout>
+

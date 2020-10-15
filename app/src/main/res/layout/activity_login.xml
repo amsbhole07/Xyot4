@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bgg"></ImageView>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/cartoon_slam"
+                android:text="Mungi Engineers PVT LTD"
+                android:textColor="@color/white"
+                android:textSize="36px"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/cartoon_slam"
+                android:text="learn anything from anywhere"
+                android:textColor="@color/white"
+                android:textSize="42px"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="490dp"
+                android:layout_height="280dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="@dimen/factor_mdpi_15_dp"
+                android:src="@drawable/main_logo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <EditText
+                android:id="@+id/edt_username"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="@dimen/factor_mdpi_15_dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="@dimen/factor_mdpi_15_dp"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/cartoon_slam"
+                android:hint="Username "
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorWhiteSmoke"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <EditText
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="@dimen/factor_mdpi_15_dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="@dimen/factor_mdpi_15_dp"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/cartoon_slam"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorWhiteSmoke"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edt_username" />
+
+            <TextView
+                android:id="@+id/txt_login"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="@dimen/factor_mdpi_15_dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="@dimen/factor_mdpi_15_dp"
+                android:background="@drawable/button_back1"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/cartoon_slam"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:text="LOGIN"
+                android:textColor="@color/shaedfrutorial_title"
+                android:textSize="@dimen/font_extralarge_18"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edt_password" />
+
+            <TextView
+                android:id="@+id/txt_forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="@dimen/factor_mdpi_15_dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="@dimen/factor_mdpi_15_dp"
+
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/cartoon_slam"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:text="FORGOT PASSWORD"
+                android:textColor="@color/white"
+                android:textSize="@dimen/factor_mdpi_15_dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_login" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/cartoon_slam"
+                android:orientation="horizontal"
+                android:text="@string/copyright"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+
+                <TextView
+                    android:id="@+id/txt_already_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_slam"
+                    android:text="DONT HAVE AN ACCOUNT ?"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txt_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_slam"
+                    android:gravity="right"
+                    android:text="REGISTER"
+                    android:textColor="@color/spark_primary_color"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+</RelativeLayout>
